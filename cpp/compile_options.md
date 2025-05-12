@@ -5,7 +5,7 @@
 | -Wall | 打开gcc/g++基础告警 | warn all缩写 |
 | -Wextra | 打开gcc/g++更多告警 | extra warning缩写 |
 | -Wpedantic | 打开代码中不符合ISO C标准代码告警 | 这三个一般编译时都打开 |
-|  |  |  |
+| ... |  |  |
 | -flto | 开启跨文件链接时优化（inline跨文件内联等优化） | LTO(Link Time Optimization)链接时优化的选项；<br> 经常和O3选项配合使用（flto跨文件， O3文件内）； |
 | -O0 |  不进行编译优化，默认选项 |  |
 | -O1 | 减少消耗的编译时间，尝试减小生成代码的尺寸以及缩短执行时间 |  |
